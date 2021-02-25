@@ -7,6 +7,8 @@ def using_sort(array)
 end
 
 def using_reverse(array)
+  # For some reason, using soley the bang fails the test for this
+  # metod
   array = array.reverse
 end
 
